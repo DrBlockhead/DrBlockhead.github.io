@@ -11,7 +11,6 @@
   <body class="template">
     <p class="header"><span>Unity WebGL Player | </span>HoldableDemo</p>
     <div class="template-wrap clear">
-	<H1>Click RMB to switch hand/magic and LMB to use it.</H1>
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
       <br>
       <div class="logo"></div>
@@ -24,14 +23,12 @@
     TOTAL_MEMORY: 268435456,
     errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
     compatibilitycheck: null,
-    dataUrl: "Release/webglbuild2.data",
-    codeUrl: "Release/webglbuild2.js",
-    memUrl: "Release/webglbuild2.mem",
+    dataUrl: "Release/webglbuild.data",
+    codeUrl: "Release/webglbuild.js",
+    memUrl: "Release/webglbuild.mem",
   };
 </script>
 <script src="Release/UnityLoader.js"></script>
-	
-	
 
   </body>
 </html>

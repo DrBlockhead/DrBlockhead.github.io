@@ -1,0 +1,19 @@
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 400px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../img/holdable_demo.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.asset-card.mdl-card {
+  width: 128px;
+  height: 247px;
+}
+.asset-card > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../img/holdable_logo.png') bottom right 15% no-repeat #46B6AC;
+}
